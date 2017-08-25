@@ -1,0 +1,22 @@
+{
+  "name": "devvoh/tvmaze-api-client",
+  "type": "library",
+  "description": "TVmaze API Client is a wrapper to work with the TVMaze API",
+  "keywords": ["library", "tvmaze", "api"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robin de Graaf",
+      "email": "hello@devvoh.com",
+      "homepage": "https://devvoh.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "TVmazeApi\\": "src/"
+    }
+  }
+}
