@@ -68,7 +68,7 @@ class Client
     {
         $response = $this->makeRequest('shows/' . $id . '/episodes');
 
-        if (!$response || $response["status"] == "404") {
+        if (!$response || (isset($response["status"]) && $response["status"] == "404")) {
             return [];
         }
 
