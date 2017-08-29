@@ -41,7 +41,7 @@ class Episode
         $data_object->runtime = $response["runtime"];
         $data_object->image   = $response["image"];
         $data_object->summary = $response["summary"];
-        $data_object->links   = $response["links"];
+        $data_object->links   = $response["_links"];
 
         return $data_object;
     }

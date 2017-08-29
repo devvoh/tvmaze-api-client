@@ -62,7 +62,7 @@ class Show
         $data_object->image        = $response["image"];
         $data_object->summary      = $response["summary"];
         $data_object->updated      = $response["updated"];
-        $data_object->links        = $response["links"];
+        $data_object->links        = $response["_links"];
 
         return $data_object;
     }
