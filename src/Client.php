@@ -1,13 +1,6 @@
 <?php
 namespace TVmazeApi;
 
-/**
- *
- * @see https://github.com/JPinkney/TVMaze-PHP-API-Wrapper/blob/master/TVMaze/TVMaze.php
- *
- * Steal all functionality. GIVE NO CREDIT. This is merely a shortcut :D
- *
- */
 class Client
 {
     /** @var string */

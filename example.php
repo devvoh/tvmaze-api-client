@@ -1,7 +1,7 @@
 <?php
-include("src/devvoh/tvmaze-api-client/Client.php");
-include("src/devvoh/tvmaze-api-client/Data/Show.php");
-include("src/devvoh/tvmaze-api-client/Data/Episode.php");
+include("src/Client.php");
+include("src/Data/Show.php");
+include("src/Data/Episode.php");
 
 $client = new TVmazeApi\Client();
 $shows = $client->searchShow("firefl");
